@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Creepster&display=swap");
+
+html,
+body,
+* {
+  font-size: 10px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0d7226;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  color: white;
+  background-image:
+    linear-gradient(rgba(85, 243, 217, 0.8), rgba(14, 73, 73, 0.8)),
+    url("pics/BTD6_ProfileBanner10.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.hero-content {
+  width: 85rem;
+  padding: 2rem;
+}
+.hero h1 {
+  font-size: 7rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+.hero p {
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+.btn {
+  display: inline-block;
+  padding: 1.4rem 3.2rem;
+  font-size: 2rem;
+  background-color: #ec3c3c;
+  text-decoration: none;
+  border-radius: 5rem;
+  color: white;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #5c2b61;
+  border: 6px solid #4e2e1b;
+  color: #ffffff;
+  width: 45rem;
+  height: 55rem;
+  /* margin is space between elements */
+  margin: 2.5rem 5rem;
+  border-radius: 0.8rem;
+  align-items: center;
+  font-weight: 900;
+  font-size: 5rem;
+}
+.card-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.card-img {
+  width: 100%;
+  height: 60%;
+  object-fit: contain;
+  border-radius: 0.8rem;
+}
+.card-price {
+  margin: 0;
+  font-size: 1.5rem;
+}
+.card-btn {
+  height: 4rem;
+  padding: 0 1.6rem;
+  background-color: #703b17;
+  color: #edf0ff;
+  border: 3px solid #4e2e1b;
+  border-radius: 0.4rem;
+  font-size: 2rem;
+  font-weight: 600px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.card-btn:hover {
+  background-color: #25100c;
+}
+
+.container {
+    font-size: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;    
+    justify-content: center;
+}
